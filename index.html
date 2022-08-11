@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Dashboard.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <title>Dashboard Dy.No</title>
+</head>
+<body>
+    <header>
+        <div class="layer">
+            <div class="jumbotron">
+                <a href="index.html"><img class="logo" src="assets/Logo DyNO.png"></a>
+                <p>Bersama Dy.No Kita Menjadi Jagoan Arduino</p>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" class="button">Beranda</a></li>
+                <li><a href="Pendahuluan.html" class="button">Materi</a></li>
+                <li><a href="#" class="button">Challenge</a></li>
+                <li><a href="forum_diskusi.html" class="button">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="section1">
+                <p>"Dy.No merupakan sebuah platform pembelajaran digital 
+                    terkait pengembangan teknologi berbasis mikrokontroler
+                    Arduino. Bersama Dy.No, kita belajar menjadi pengembang
+                    teknologi berbasis Arduino yang terampil dan handal"
+                </p>
+                <P>- Ferdy Alfian</P>
+            </div>
+
+            <div class="section2">
+                <h1>Ada apa saja sih di Dy.No ?</h1>
+                <div class="content">
+                    <a href="Pendahuluan.html" class="box-menu">
+                        <div class="boxContent">
+                            <img src="assets/Buku.png">
+                            <p>Course</p>
+                        </div>
+                    </a>
+                    <a href="#" class="box-menu">
+                        <div class="boxContent">
+                            <img src="assets/Exam.png">
+                            <p>Challenge</p>
+                        </div>
+                    </a>
+                    <a href="#" class="box-menu">
+                        <div class="boxContent">
+                            <img src="assets/Toga.png">
+                            <p>Event</p>
+                        </div>
+                    </a>
+                    <a href="shop.html" class="box-menu">
+                        <div class="boxContent">
+                            <img src="assets/keranjang.png">
+                            <p>Shop</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="section3">
+                <h1>Mari bergabung bersama kami</h1>
+                <a href="form_login.html">Masuk</a>
+                <p>Atau</p>
+                <a href="form-signup.html">Daftar</a>
+            </div>
+            
+            <div class="layer-resi">
+                <div class="container">
+                    <h1 class="text-center">Lacak Pesanan Komponen Kamu Disini!</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect">Pilih Kurir</label><br>
+                            <select class="form-select" id="courier_input">
+                                <option value="">Pilih Ekspedisi Anda</option>
+                                <option value="jne">JNE</option>
+                                <option value="jnt">J&T</option>
+                                <option value="tiki">Tiki</option>
+                                <option value="sicepat">Sicepat Ekspress</option>
+                                <option value="pos">Pos Indonesia</option>
+                                <option value="anteraja">AnterAja</option>
+                                <option value="ninja">Ninja</option>
+                                <option value="spx">Shopee Xpress</option>
+                                <option value="ide">ID Express</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Nomor Resi</label>
+                            <input type="text" class="form-control" id="awb_input" placeholder="Masukkan No Resi Kalian">
+                        </div>
+                        <button class="btn btn-dark" type="button" id="search">Cek Sekarang</button>
+                    </form>
+                    <br>
+                    <div id="output"></div> 
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+
+    <aside>
+        <div class="cont-side">
+            <div class="sideTop">
+                <img src="assets/Ferdy.jpg">
+            </div>
+            <h1>Ferdy Alfian Indra Prasetya</h1>
+            <h2>Owner Dy.No</h2>
+        </div>
+
+        <div class="cont-side2">
+            <div class="bloksTitle">
+                <p>Materi</p>
+            </div>
+            <div class="bloks">
+                <li><a href="Pendahuluan.html">Pendahuluan</a></li>
+                <li><a href="#">Mikrokontroler</a></li>
+                <li><a href="#">Arduino</a></li>
+                <li><a href="#">Komponen</a></li>
+                <li><a href="#">Pengembangan</a></li>
+                <li><a href="#">Forum Diskusi</a></li>     
+            </div>
+            
+        </div>
+    </aside>
+
+    <footer>
+        <div class="text-foot">
+            <a href="#" class="Question">Pertanyaan Umum</a>
+            <a href="#" class="About">Tentang Kami</a>
+            <a href="#" class="Terms">Kebijakan dan Privasi</a>
+        </div>
+        <img class="logoFooter" src="assets/Logo DyNO.png">
+        <p>&copy | 2022 Dy.No Corporation</p>
+    </footer>
+
+    
+    
+    <script>alert("Selamat datang di Dy.No. Mari menjadi Arduino Developer :)");</script>
+    <script src="CekResi.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>

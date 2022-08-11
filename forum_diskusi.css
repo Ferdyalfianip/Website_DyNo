@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.layer {
+    background-image: url(assets/Arduino2.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+
+
+header {
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: #5a794b;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    opacity: 0.9;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+    font-family:'Lucida Sans Unicode';
+}
+
+.logo {
+    width: 18%;
+}
+
+.navbar {
+    background-color: #315840;
+    width: 100%;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    color: white;
+}
+
+.navbar a:hover {
+    color:aquamarine;
+}
+
+main {
+    width: 80%;
+    height: max-content;
+    float: left;
+    border-right: 1px solid rgb(226, 226, 226);
+}
+
+article {
+    padding: 0px;
+    height: 100%;
+    margin: 20px 30px 0 30px;    
+}
+
+.position-now p {
+    padding: 0;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.position-now a {
+    text-decoration: none;
+    color:rgb(143, 142, 142);
+}
+
+.box-forum {
+    width: 94%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 0 0;
+}
+
+.box-forum h3 {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.box-forumName {
+    margin: 0 30px 10px 30px;
+}
+
+.box-forumName input{
+   border: 1px solid grey;
+   border-radius: 5px;
+}
+
+.box-forumInput {
+    margin: 0 30px 0 30px;
+}
+
+.box-forumInput input{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+button {
+    margin: 20px 30px 30px 30px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+aside img {
+    width: 180px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.cont-side2 {
+    margin-top:20px;
+    padding: 10px;
+    width: 100%;
+    line-height: 25px;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 3px 3px 0 grey;
+    text-align:left;
+    background-color: rgb(245, 245, 245);
+}
+
+.bloksTitle {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px 0 0 0;
+    color: #315840;
+    border-bottom: 2px solid rgba(178, 224, 207, 0.9);
+}
+
+
+.bloks li {
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 0;
+    padding: 10px 0 10px 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.bloks li :hover{
+    color: aquamarine;
+    padding: 20px 0 20px 0;
+}
+
+.bloks a {
+    text-decoration: none;
+    color: #315840;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    margin: 0;
+    background-color: #315840;
+    text-align: center;
+}
+
+.text-foot {
+    padding: 20px 0 20px 0;
+}
+
+.text-foot a {
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px 0 10px;
+
+}
+
+.text-foot a:hover {
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color: aquamarine;
+    padding: 0 10px 0 10px;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+}
+
+footer img {
+    width: 100px;
+    margin-bottom: 0;
+    line-height: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .jumbotron p {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        padding-right: 25px;
+        font-size: 12px;
+    }
+
+    main {
+        float: none;
+        height: 400px;
+        height: max-content;
+    }
+
+    .position-now a{
+        font-size: 13px;
+    }
+
+    .section h1 {
+        font-size: 20px;
+    }
+
+    .section p{
+        font-size: 16px;
+    }
+
+    aside {
+        float:none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .cont-side {
+        display: none;
+    }
+
+    .cont-side2 {
+        margin-top: 0px;
+        padding: 10px 0 0 0;
+        width: 100%;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .bloksTitle {
+        font-family: Arial;
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+        padding: 10px 0 0 0;
+        color: rgba(0, 163, 168, 0.9);
+        border-bottom: 5px solid rgba(178, 224, 207, 0.9);
+    }
+    
+    .bloks li {
+        font-family: Arial;
+        font-size: 16px;
+        padding: 10px 0 10px 10px;
+        color: rgba(0, 163, 168, 0.9);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .jumbotron p {
+        font-size: 15px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        padding-right: 25px;
+        font-size: 12px;
+    }
+
+    main {
+        float: none;
+        width: 100%;
+        height: max-content;
+    }
+
+    .position-now a{
+        font-size: 12px;
+    }
+
+    .section h1 {
+        font-size: 18px;
+    }
+
+    .section p{
+        font-size: 12px;
+    }
+
+    aside {
+        float:none;
+    }
+
+    .content {
+        display:contents;
+    }
+
+    .boxContent {
+        width:auto;
+        margin: 15px;
+        padding: 0;
+    }
+
+    .box-menu img {
+        width: 80px;
+        margin: 0;
+        line-height: 0px;
+    }
+    
+    .box-menu p {
+        margin: 0;
+        padding-bottom: 10px;
+        font-size: 14px;;
+        font-weight: bold;
+    }
+
+    .section3 h1 {
+        font-size: 18px;
+        padding: 0 0 10px 0;
+    }
+    
+    .section3 a {
+        font-size: 12px;
+    }
+
+    .section3 a:hover {
+        font-size: 12px;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .bloksTitle {
+        font-size: 17px;
+        padding: 10px 0 0 0;
+        color: rgba(0, 163, 168, 0.9);
+        border-bottom: 5px solid rgba(178, 224, 207, 0.9);
+    }
+    
+    .bloks li {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .text-foot a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .text-foot a:hover {
+        font-size: 12px;
+        padding: 10px;
+    }
+}

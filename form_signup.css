@@ -1,0 +1,163 @@
+.navbar {
+    background-color: #315840;
+    width: 100%;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 17px;
+    font-family: Verdana;
+    color:white;
+}
+
+.navbar a:hover {
+    color:aquamarine;
+}
+
+main {
+    width: 100%;
+}
+
+.box-form {
+    margin:100px auto;
+    padding:35px;
+    width: 500px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 0 grey;
+}
+
+.title-form {
+    text-align: center;
+    font-size: 40px;
+    color: #315840;
+}
+
+.log-form {
+    margin: 20px 0 0 0;
+}
+
+input {
+    width: 100%;
+    border: solid #315840;
+}
+
+.log-section {
+    color: #315840;
+    padding-bottom: 15px;
+}
+
+.log-section h5 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+button {
+    color: #315840;
+    margin-top: 10px;
+}
+
+.ask-section {
+    padding: 15px 0 5px 0;
+    line-height: 5px;
+}
+
+.ask-section a {
+    float: left;
+    padding-right: 10px;
+    color:#315840;
+    text-decoration:none;
+}
+
+.ask-section a:hover {
+    color: black;
+}
+
+.ask-section a:active {
+    color: black;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    margin: 0;
+    background-color: #315840;
+    text-align: center;
+}
+
+.text-foot {
+    padding: 20px 0 20px 0;
+}
+
+.text-foot a {
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px 0 10px;
+
+}
+
+.text-foot a:hover {
+    font-family: arial;
+    font-size: 17px;
+    text-decoration: none;
+    color:aquamarine;
+    padding: 0 10px 0 10px;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
+}
+
+footer img {
+    width: 100px;
+    margin-bottom: 0;
+    line-height: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .box-form {
+        width: 350px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        padding-right: 25px;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .box-form {
+        width: 300px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .text-foot a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .text-foot a:hover {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
